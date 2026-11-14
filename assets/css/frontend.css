@@ -1,0 +1,11 @@
+.bisnl { margin: 1em 0; padding: 1em; border: 1px solid rgba(0, 0, 0, .15); border-radius: 4px; }
+.bisnl[hidden] { display: none; }
+.bisnl__title { margin: 0 0 .6em; font-weight: 600; }
+.bisnl__email { display: block; width: 100%; margin-bottom: .75em; padding: .65em .8em; box-sizing: border-box; font: inherit; border: 1px solid #8c8f94; border-radius: 4px; background: #fff; color: inherit; }
+.bisnl__button { padding: .7em 1.4em; font: inherit; font-weight: 600; cursor: pointer; border-radius: 4px; }
+.bisnl__button[disabled] { opacity: .6; cursor: wait; }
+.bisnl__consent { display: block; margin-bottom: .6em; font-size: .9em; }
+.bisnl__hp { position: absolute; left: -9999px; height: 0; overflow: hidden; }
+.bisnl__message { margin: .6em 0 0; }
+.bisnl__message.is-success { color: #1e7e34; }
+.bisnl__message.is-error { color: #b32d2e; }
